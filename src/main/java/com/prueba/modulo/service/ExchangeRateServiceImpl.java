@@ -84,7 +84,7 @@ public class ExchangeRateServiceImpl implements ExchangeRateService {
 			throw new ResourceNotFoundException("El monto ingresado no puede ser mayor de : " + limitemonto.toString());			
 		}
 		
-		int scale = 2;		
+		int scale = 3;		
 		BigDecimal encontradoAmountExchangeRate = BigDecimal.ZERO;
 		BigDecimal calculoMontocontipocambio = BigDecimal.ZERO;
 		
